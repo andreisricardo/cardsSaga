@@ -8,8 +8,16 @@ body {
     background-color: #ddc5eb;
 }
 
+@font-face {
+    font-family: Adventure;
+    src: url(../font/Adventure.otf);
+}
+
 #Cabecalho {
+    font-family: Adventure;
     text-align: center;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
     color: #fe019a;
     margin-bottom: 25px;
 }
@@ -27,7 +35,7 @@ body {
 
 .header button {
     display: block;
-    border: 1px solid #5400cf;
+    border: 1px solid #fe019a;
     background-color: #cfa7d3;
     height: 50px;
     width: 280px;
@@ -57,6 +65,33 @@ body {
     color: aliceblue;
     text-align: center;
     padding: 10px;
+}
+
+.card {
+    width: 400px;
+    height: 600px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card__fundo {
+    height: 250px;
+    background-size: cover;
+    background-image: url("../img/background.jpg");
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+}
+
+.card__img {
+    width: 40%;
+    position: absolute;
+    top: 50px;
+    left: 110px;
 }
 
 section div {
