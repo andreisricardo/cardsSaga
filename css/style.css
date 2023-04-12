@@ -29,8 +29,10 @@ body {
 }
 
 .header a {
+    font-family: Adventure;
     text-decoration: none;
     color: #040280;
+    font-size: 17px;
 }
 
 .header button {
@@ -63,14 +65,16 @@ body {
 
 .banner h2 {
     font-family: Adventure;
+    font-size: 70px;
     color: aliceblue;
+    -webkit-text-stroke: 1px black;
     text-align: center;
     padding: 10px;
 }
 
 .card {
     width: 400px;
-    height: 665px;
+    height: 680px;
     border: 1px solid #fe019a;
     border-radius: 20px;
     margin: auto;
@@ -89,7 +93,8 @@ body {
 }
 
 .card__img {
-    width: 35%;
+    width: 150px;
+    height: 200px;
     position: absolute;
     top: 37px;
     left: 127px;
@@ -98,6 +103,7 @@ body {
 }
 
 #PhantomBlood h2{
+    font-size: 30px;
     margin-top: 5px;
     margin-bottom: 10px;
     font-family: Adventure;
@@ -107,6 +113,7 @@ body {
 }
 
 #BattleTendency h2 {
+    font-size: 30px;
     margin-top: 5px;
     margin-bottom: 10px;
     font-family: Adventure;
@@ -116,6 +123,7 @@ body {
 }
 
 #StardustCrusaders h2 {
+    font-size: 30px;
     margin-top: 5px;
     margin-bottom: 10px;
     font-family: Adventure;
@@ -125,6 +133,7 @@ body {
 }
 
 #DiamondIsUnbreakable h2 {
+    font-size: 30px;
     margin-top: 5px;
     margin-bottom: 10px;
     font-family: Adventure;
@@ -134,6 +143,7 @@ body {
 }
 
 #GoldenWind h2 {
+    font-size: 30px;
     margin-top: 5px;
     margin-bottom: 10px;
     font-family: Adventure;
@@ -143,6 +153,7 @@ body {
 }
 
 #StoneOcean h2 {
+    font-size: 30px;
     margin-top: 5px;
     margin-bottom: 10px;
     font-family: Adventure;
@@ -167,28 +178,62 @@ body {
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-}                  
+}     
 
-.card__sinopse a{
+
+
+.card__botao a{
     text-decoration: none;
     color: #040280;
 }
 
 .personagens {
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .personagem__img {
-    width: 10%;
+    width: 190px;
+    height: 200px;
     border: 1px solid #fe019a;
     display: block;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    margin: auto;
 }
 
 .personagens figcaption {
     margin-bottom: 15px;
+}
+
+footer {
+    border: 1px solid #ff007f;
+}
+
+footer span a {
+    font-family: Adventure;
+    text-decoration: none;
+}
+
+.return{
+    font-size: 20px;
+    font-family: Adventure;
+    color: #00ffff;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 20px;
+    background-color: #ca5cdd;
+    border: 3px solid #ff007f;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.return a {
+    text-decoration: none;
 }
