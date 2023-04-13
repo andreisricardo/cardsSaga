@@ -62,6 +62,7 @@ body {
 }
 
 .banner h2 {
+    font-family: Adventure;
     color: aliceblue;
     text-align: center;
     padding: 10px;
@@ -69,15 +70,15 @@ body {
 
 .card {
     width: 400px;
-    height: 600px;
-    border: 1px solid;
+    height: 650px;
+    border: 1px solid #fe019a;
     border-radius: 20px;
     margin: auto;
     overflow: hidden;
 }
 
 .card__fundo {
-    height: 250px;
+    height: 270px;
     background-size: cover;
     background-image: url("../img/background.jpg");
     border-top-left-radius: 20px;
@@ -88,12 +89,65 @@ body {
 }
 
 .card__img {
-    width: 40%;
+    width: 35%;
     position: absolute;
-    top: 50px;
-    left: 110px;
+    top: 37px;
+    left: 127px;
+    border: 5px solid #fe019a;
+
 }
 
-section div {
-    border: 1px solid palevioletred;
+#PhantomBlood h2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: Adventure;
+    -webkit-text-stroke: 1px black;
+    color:#0e4d92;
+    text-align: center;
+}
+
+#BattleTendency h2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: Adventure;
+    -webkit-text-stroke: 1px black;
+    color:#72bf6a;
+    text-align: center;
+}
+
+.card__sinopse p {
+    margin-bottom: 10px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.card__botao button {
+    display: block;
+    margin: auto;
+    border: 1px solid #fe019a;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #be93d4;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}                  
+
+.card__sinopse a{
+    text-decoration: none;
+    color: #040280;
+}
+
+.personagens {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.personagem__img {
+    width: 10%;
+    border: 1px solid #fe019a;
+    display: block;
+    margin-bottom: 15px;
+    margin: auto;
 }
