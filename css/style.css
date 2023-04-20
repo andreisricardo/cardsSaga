@@ -93,19 +93,33 @@ body {
 }
 
 .card__img {
-    width: 150px;
-    height: 200px;
+    width: 160px;
+    height: 210px;
     position: absolute;
     top: 37px;
-    left: 127px;
+    left: 120px;
     border: 5px solid darkblue;
 
 }
 
+.catalogo__um {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.catalogo__dois {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
 #PhantomBlood h2{
     font-size: 30px;
-    margin-top: 5px;
-    margin-bottom: 10px;
     font-family: Adventure;
     -webkit-text-stroke: 1px black;
     color:#0e4d92;
@@ -114,8 +128,6 @@ body {
 
 #BattleTendency h2 {
     font-size: 30px;
-    margin-top: 5px;
-    margin-bottom: 10px;
     font-family: Adventure;
     -webkit-text-stroke: 1px black;
     color:#72bf6a;
@@ -124,8 +136,6 @@ body {
 
 #StardustCrusaders h2 {
     font-size: 30px;
-    margin-top: 5px;
-    margin-bottom: 10px;
     font-family: Adventure;
     -webkit-text-stroke: 1px black;
     color:#3cb043;
@@ -134,8 +144,6 @@ body {
 
 #DiamondIsUnbreakable h2 {
     font-size: 30px;
-    margin-top: 5px;
-    margin-bottom: 10px;
     font-family: Adventure;
     -webkit-text-stroke: 1px black;
     color:#ff007f;
@@ -144,8 +152,6 @@ body {
 
 #GoldenWind h2 {
     font-size: 30px;
-    margin-top: 5px;
-    margin-bottom: 10px;
     font-family: Adventure;
     -webkit-text-stroke: 1px black;
     color:#d4af37;
@@ -154,8 +160,6 @@ body {
 
 #StoneOcean h2 {
     font-size: 30px;
-    margin-top: 5px;
-    margin-bottom: 10px;
     font-family: Adventure;
     -webkit-text-stroke: 1px black;
     color:#00ffff;
@@ -180,8 +184,6 @@ body {
     transition-duration: 0.4s;
 }     
 
-
-
 .card__botao a{
     text-decoration: none;
     color: #040280;
@@ -189,8 +191,7 @@ body {
 
 .personagens {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    padding: 15px;
     gap: 100px;
     display: flex;
     flex-direction: row;
@@ -207,7 +208,13 @@ body {
 }
 
 .personagens figcaption {
-    margin-bottom: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.personagens__pb {
+    margin-top: 30px;
+    border: 3px solid #fe019a;
 }
 
 footer {
