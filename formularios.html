@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/forms.css" />
+
+    <title>Dados Pessoais</title>
+</head>
+
+<body>
+    <fieldset class="dados__pessoais">
+        <form action="/dados_pessoais" method="post" class="formulario">
+
+            <div class="formulario__titulo">
+                <h1>Informe seus dados</h1>
+            </div>
+
+            <div class="formulario__campos">
+                <div class="campos__nome">
+                    <label for="">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Informe seu nome" />
+                </div>
+
+                <div class="campos__email">
+                    <label for="">E-mail:</label>
+                    <input type="text" name="email" id="email" placeholder="Informe seu e-mail" />
+                </div>
+
+                <div class="campos__telefone">
+                    <label for="">Telefone:</label>
+                    <input type="text" name="telefone" id="telefone" placeholder="Informe seu telefone" />
+                </div>
+
+                <div class="campos__data">
+                    <label for="">Data de nascimento:</label>
+                    <input type="date" name="data" id="data">
+                </div>
+            </div>
+
+            <div class="formulario__botoes">
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </fieldset>
+
+    <fieldset class="preferencias">
+        <form action="/cadastro_preferencias" method="post" class="formulario">
+
+            <h1>O que você prefere?</h1>
+
+            <div class="formulario__radio">
+                <input type="radio" id="documentarios" name="preferencia" value="documentarios" />
+                <label for="">Documentários</label>
+
+                <input type="radio" id="filmes" name="preferencia" value="filmes" />
+                <label for="">Filmes</label>
+
+                <input type="radio" id="series" name="preferencia" value="series" />
+                <label for="">Séries</label>
+
+                <input type="radio" id="animes" name="preferencia" value="animes" />
+                <label for="">Animes</label>
+
+                <input type="radio" id="desenhos" name="preferencia" value="desenhos" />
+                <label for="">Desenhos</label>
+            </div>
+
+            <p>Quais seus genêros cinematográficos favoritos?</p>
+
+            <div class="formulario__check">
+
+                <div class="formulario__comedia">
+                    <label for="">Comédia:</label>
+                    <input type="checkbox" name="comedia" id="generos" value="comedia" />
+                </div>
+
+                <div class="formulario__drama">
+                    <label for="">Drama:</label>
+                    <input type="checkbox" name="drama" id="generos" value="drama" />
+                </div>
+
+                <div class="formulario__terror">
+                    <label for="">Terror:</label>
+                    <input type="checkbox" name="terror" id="generos" value="terror" />
+                </div>
+
+                <div class="formulario__suspense">
+                    <label for="">Suspense:</label>
+                    <input type="checkbox" name="suspense" id="generos" value="suspense" />
+                </div>
+
+                <div class="formulario__romance">
+                    <label for="">Romance:</label>
+                    <input type="checkbox" name="romance" id="generos" value="romance" />
+                </div>
+
+                <div class="formulario__acao">
+                    <label for="">Ação:</label>
+                    <input type="checkbox" name="acao" id="generos" value="acao" />
+                </div>
+
+                <div class="formulario__aventura">
+                    <label for="">Aventura:</label>
+                    <input type="checkbox" name="aventura" id="generos" value="aventura" />
+                </div>
+
+                <div class="formulario__fantasia">
+                    <label for="">Fantasia:</label>
+                    <input type="checkbox" name="fantasia" id="generos" value="fantasia" />
+                </div>
+
+            </div>
+
+            <h1>Fale sobre seus gostos:</h1>
+
+            <div class="formulario__textarea">
+
+                <textarea name="gostos" id="gostos" cols="40" rows="15"></textarea>
+            </div>
+
+            <div class="formulario__botoes">
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
