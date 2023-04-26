@@ -281,3 +281,26 @@ footer span a {
 .return a {
     text-decoration: none;
 }
+
+.formulario__titulo h1 {
+    color:#0e4d92;
+    font-family: Adventure;
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+}
+
+.formulario__campos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario__campos ::placeholder {
+    color: #040280;
+}
+
+.formulario__radio {
+    display: flex;
+    flex-direction: column;
+}
