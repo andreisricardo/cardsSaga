@@ -46,7 +46,7 @@
 }
 
 .formulario input#data {
-    width: 120px;
+    width: 130px;
 }
 
 .formulario__botoes button {
@@ -69,9 +69,13 @@
     gap: 10px;
 }
 
-.formulario__radio {
+.formulario__campos input {
     display: flex;
+    height: 35px;
+    width: 900px;
+    padding: 10px;
 }
+
 
 .formulario__check div, .formulario__radio div {
     display: flex;
